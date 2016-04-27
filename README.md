@@ -6,10 +6,10 @@ Automated Time Tracker for Linux
 The objective of this project will be to track the active window in order to apply some automated rules to determine the personal usage profiling on desktop applications. This will allow a person to see how much time he/she spends using each program.
 
 There are some other projects like this:
-* Arbtt [1]
-* Window-title [2]
-* Wakoopa [3]
-* RescueTime [4]
+* [Arbtt][1]
+* [Window-title][2]
+* [Wakoopa][3]
+* [RescueTime][4]
 
 All projects on this subject fall short on the following:
 * There are two approaches that can be used: Sampling (Polling) and event-driven information gathering. Event-driven approach is better because sampling does not produce very accurate results.
@@ -21,12 +21,12 @@ This project will use an event-driven approach to properly log the active window
 
 In order to develop this application, one will need to have beginner level understanding on the following subjects:
 * Python
-* X Window system python bindings (xpyb and xpybutil [5])
+* X Window system python bindings (xpyb and [xpybutil][5])
 * Using cryptography in python
 * Using external APIs
 
-[1] http://hackage.haskell.org/package/arbtt
-[2] https://github.com/abyrd/window-title
-[3] http://wakoopa.com/
-[4] https://www.rescuetime.com/
-[5] https://github.com/BurntSushi/xpybutil
+[1]: http://hackage.haskell.org/package/arbtt
+[2]: https://github.com/abyrd/window-title
+[3]: http://wakoopa.com/
+[4]: https://www.rescuetime.com/
+[5]: https://github.com/BurntSushi/xpybutil
